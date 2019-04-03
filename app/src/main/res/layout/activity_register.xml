@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.RegisterActivity">
+
+    <include layout="@layout/nav_bar" />
+
+    <ImageView
+        android:id="@+id/ic_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginSize"
+        android:contentDescription="@string/text_describe"
+        android:src="@mipmap/ic_logo" />
+
+    <com.qjh.imoocmusic.customwidget.InputView
+        android:id="@+id/phone_input_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_hint="@string/phone_hint"
+        app:input_icon="@mipmap/ic_phone"
+        app:is_password="false" />
+
+    <View style="@style/line" />
+
+    <com.qjh.imoocmusic.customwidget.InputView
+        android:id="@+id/password_input_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        app:input_hint="@string/password_hint"
+        app:input_icon="@mipmap/ic_password"
+        app:is_password="true" />
+
+    <View style="@style/line" />
+
+    <com.qjh.imoocmusic.customwidget.InputView
+        android:id="@+id/password_input_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        app:input_hint="@string/confirm_password_hint"
+        app:input_icon="@mipmap/ic_password"
+        app:is_password="true" />
+
+    <View style="@style/line" />
+
+
+
+    <Button
+        style="@style/commitBtn"
+        android:layout_marginTop="@dimen/marginSize"
+        android:onClick="doRegister"
+        android:text="@string/btn_register" />
+</LinearLayout>

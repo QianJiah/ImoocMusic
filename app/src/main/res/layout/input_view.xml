@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/marginSize"
+    android:paddingLeft="@dimen/marginSize"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/inputViewHeight">
+
+    <ImageView
+        android:id="@+id/input_icon"
+        android:layout_width="@dimen/backSize"
+        android:layout_height="@dimen/backSize"
+        android:contentDescription="@string/text_describe"
+        android:src="@mipmap/ic_phone"/>
+    <EditText
+        android:id="@+id/input_num"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:paddingLeft="@dimen/marginSize"
+        android:paddingRight="@dimen/marginSize"
+        android:textSize="@dimen/hintSize"
+        android:hint="@string/phone_hint"/>
+
+
+</LinearLayout>

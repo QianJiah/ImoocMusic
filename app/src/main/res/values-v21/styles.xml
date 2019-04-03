@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/mainColor</item>    <!--statusBar 的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/mainColor</item> <!--（5.0）这也可以修改statusBar的颜色，优先级更高-->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>   <!--全局Activity切换动画-->
+    </style>
+
+</resources>

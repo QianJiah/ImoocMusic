@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ImoocMusic</string>
+    <string name="nav_title">慕课音乐</string>
+    <string name="text_describe">back</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="original_password_hint">请输入原密码</string>
+    <string name="confirm_password_hint">请确认密码</string>
+    <string name="text_register">立即注册</string>
+    <string name="btn_login">登  录</string>
+    <string name="btn_register">注  册</string>
+    <string name="validate_phone">手机号码无效</string>
+    <string name="validate_password">密码不能为空</string>
+    <string name="twice_pass_wrong">两次密码输入不一致</string>
+    <string name="pass_not_null">密码不能为空</string>
+    <string name="register_success">注册成功，请登录！</string>
+</resources>
