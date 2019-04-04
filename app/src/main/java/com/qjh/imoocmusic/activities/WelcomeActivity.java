@@ -45,6 +45,8 @@ public class WelcomeActivity extends BaseActivity {
 
     private void go2LoginActivity() {
         Intent intent = new Intent(this, LoginActivity.class);
+//        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
+        finish();   //可以把当前Activity在任务栈中清除掉
     }
 }

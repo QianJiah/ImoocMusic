@@ -10,4 +10,6 @@
     <dimen name="btnHeight">44dp</dimen>
     <dimen name="lineMargin">12dp</dimen>
     <dimen name="btnRadius">5dp</dimen>
+    <dimen name="lineWidth">4dp</dimen>
+    <dimen name="lineHeight">22dp</dimen>
 </resources>

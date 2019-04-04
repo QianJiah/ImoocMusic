@@ -5,7 +5,9 @@
     <string name="phone_hint">请输入手机号</string>
     <string name="password_hint">请输入密码</string>
     <string name="original_password_hint">请输入原密码</string>
+    <string name="new_password_hint">请输入新密码</string>
     <string name="confirm_password_hint">请确认密码</string>
+    <string name="confirm_modify_password">确认修改</string>
     <string name="text_register">立即注册</string>
     <string name="btn_login">登  录</string>
     <string name="btn_register">注  册</string>
@@ -14,4 +16,11 @@
     <string name="twice_pass_wrong">两次密码输入不一致</string>
     <string name="pass_not_null">密码不能为空</string>
     <string name="register_success">注册成功，请登录！</string>
+    <string name="user_name">当前用户名:</string>
+    <string name="modify_pass">修改密码</string>
+    <string name="user_logout">退出登录</string>
+    <string name="personal_center">个人中心</string>
+    <string name="recommend_list">推荐歌单</string>
+    <string name="listen_num">600万</string>
+    <string name="grid_list_name">歌单名称</string>
 </resources>

@@ -7,5 +7,10 @@
     <color name="mainColor">#d43433</color>
     <color name="mainDeepColor">#df0807</color>
     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
     <color name="lineColor">#3c3c3c</color>
+    <color name="itemColor">#ffffff</color>
+    <color name="itemDeepColor">#DEE1E6</color>
+    <color name="mainTextColor">#333333</color>
+    <color name="infoColor">#888888</color>
 </resources>

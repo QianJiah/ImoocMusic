@@ -44,9 +44,11 @@ public class LoginActivity extends BaseActivity {
     public void onLogin(View view) {
         String phone = inputPhone.getEditTextStr();
         String password = inputPassword.getEditTextStr();
-        if (UserUtils.isValidateData(phone, password)) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-        }
+//        if (UserUtils.isValidateData(phone, password)) {
+//            Intent intent = new Intent(this, MainActivity.class);
+//            startActivity(intent);
+//        }
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

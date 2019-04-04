@@ -10,8 +10,8 @@ import com.qjh.imoocmusic.R;
 
 public class BaseActivity extends Activity {
 
-    private ImageView iv_back, iv_mine;
-    private TextView title;
+    protected ImageView iv_back, iv_mine;
+    protected TextView title;
 
     /**
      * findViewById的简写方法
