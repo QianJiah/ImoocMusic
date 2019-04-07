@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PlayMusicActivity">
+
+    <ImageView
+        android:id="@+id/play_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/grid_seven"/>
+
+    <ImageView
+        android:id="@+id/play_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_circle_back"
+        android:onClick="onBackClick"
+        android:layout_margin="@dimen/marginSize"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="400dp">
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/hintSize"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/list_music_name"/>
+
+        <TextView
+            android:id="@+id/song_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/eighteenSp"
+            android:layout_marginTop="@dimen/lineMargin"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/list_music_author"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

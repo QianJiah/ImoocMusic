@@ -8,20 +8,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
+        <com.qjh.imoocmusic.customwidget.SquareImageView
             android:id="@+id/iv_grid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitXY"
-            android:src="@mipmap/grid_eight" />
+            android:src="@mipmap/grid_seven" />
 
         <!--在图片右上方显示小图片和文字-->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|top"
-            android:layout_marginEnd="@dimen/marginSize"
-            android:layout_marginTop="@dimen/marginSize"
             android:orientation="horizontal">
 
             <ImageView
@@ -34,22 +32,22 @@
                 android:id="@+id/tv_float"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/lineMargin"
                 android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/lineWidth"
                 android:text="@string/listen_num"
                 android:textColor="@color/white"
-                android:textSize="@dimen/hintSize"/>
+                android:textSize="@dimen/middleSize" />
 
         </LinearLayout>
     </FrameLayout>
+
     <TextView
         android:id="@+id/tv_grid_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/grid_list_name"
-        android:textSize="@dimen/middleSize"
-        android:textStyle="bold"
         android:layout_marginTop="@dimen/lineWidth"
-        android:textColor="@color/black"/>
+        android:text="@string/grid_list_name"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
 </LinearLayout>

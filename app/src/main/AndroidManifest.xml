@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.qjh.imoocmusic">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -20,13 +22,15 @@
         </activity>
         <activity
             android:name=".activities.LoginActivity"
-            android:windowSoftInputMode="adjustResize|stateHidden"
-            android:launchMode="singleTask" />
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name=".activities.RegisterActivity"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity android:name=".activities.PersonalActivity" />
-        <activity android:name=".activities.ModifyPasswordActivity"/>
+        <activity android:name=".activities.ModifyPasswordActivity" />
+        <activity android:name=".activities.AblumActivity" />
+        <activity android:name=".activities.PlayMusicActivity"></activity>
     </application>
 
 </manifest>

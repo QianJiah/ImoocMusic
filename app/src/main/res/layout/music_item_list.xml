@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/lineWidth">
+
+    <ImageView
+        android:id="@+id/iv_list"
+        android:layout_width="@dimen/listImageWidth"
+        android:layout_height="@dimen/listImageWidth"
+        android:src="@mipmap/grid_two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginSize"
+        android:text="@string/list_music_name"
+        android:textColor="@color/mainTextColor"
+        android:textSize="@dimen/middleSize"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/iv_list"
+        app:layout_constraintTop_toTopOf="@id/iv_list" />
+
+    <TextView
+        android:id="@+id/tv_list_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lineWidth"
+        android:text="@string/list_music_author"
+        app:layout_constraintStart_toStartOf="@id/tv_list_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_list_title" />
+
+    <ImageView
+        android:id="@+id/iv_list_play"
+        android:layout_width="@dimen/playWidth"
+        android:layout_height="@dimen/playWidth"
+        android:src="@mipmap/ic_play"
+        android:layout_marginEnd="@dimen/lineMargin"
+        app:layout_constraintBottom_toBottomOf="@id/iv_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_list" />
+
+</android.support.constraint.ConstraintLayout>
