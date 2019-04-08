@@ -15,4 +15,9 @@
     <dimen name="lineHeight">22dp</dimen>
     <dimen name="playWidth">36dp</dimen>
     <dimen name="listImageWidth">56dp</dimen>
+    <dimen name="musicPanTopMargin">160dp</dimen>
+    <dimen name="needleTopMargin">-50dp</dimen>
+    <dimen name="needleStartMargin">-10dp</dimen>
+    <dimen name="circleImageSize">170dp</dimen>
+    <dimen name="linearTopMargin">410dp</dimen>
 </resources>

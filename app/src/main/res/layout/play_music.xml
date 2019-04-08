@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/center_fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/musicPanTopMargin">
+
+        <!--光盘-->
+        <ImageView
+            android:id="@+id/play_pan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/play_album" />
+
+        <!--音乐封面图片——圆形CircleImageView库-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/music_image"
+            android:layout_width="@dimen/circleImageSize"
+            android:layout_height="@dimen/circleImageSize"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/black"
+            android:layout_gravity="center" />
+
+        <!--播放按钮-->
+        <ImageView
+            android:id="@+id/play_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/music_play"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <!--指针-->
+    <ImageView
+        android:id="@+id/play_needle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/needleTopMargin"
+        android:layout_marginStart="@dimen/needleStartMargin"
+        android:src="@mipmap/play_needle" />
+</FrameLayout>

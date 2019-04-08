@@ -38,4 +38,6 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     //glide-transformations 对图片处理的库，配合glide
     implementation 'jp.wasabeef:glide-transformations:4.0.1'
+    //CircleImageView 库
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
 }

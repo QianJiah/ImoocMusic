@@ -57,6 +57,12 @@ public class MusicListAdapter extends RecyclerView.Adapter<MusicListAdapter.MyVi
                 mContext.startActivity(intent);
             }
         });
+        holder.mIvListPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                holder.mIvListPlay.setImageResource(R.mipmap.ic_pause);
+            }
+        });
 //        holder.mIvListPlay.setImageBitmap(null);
 //        holder.mIvList.setImageBitmap(null);
     }

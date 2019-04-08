@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer name="anim_duration">300</integer>
+    <integer name="play_pan_duration">8000</integer>
+    <integer name="play_needle_duration">2000</integer>
 </resources>
